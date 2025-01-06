@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaTwitter, FaFacebook, FaLinkedin, FaArrowDown } from "react-icons/fa";
+import { FaTwitter, FaLinkedin, FaArrowDown, FaGithub } from "react-icons/fa";
 import avatar from "../assets/avatar.png"
 
 const Hero = () => {
@@ -11,8 +11,8 @@ const Hero = () => {
         },
         {
             id: 2,
-            link: "https://facebook.com",
-            icon: <FaFacebook />,
+            link: "https://github.com",
+            icon: <FaGithub />,
         },
         {
             id: 3,

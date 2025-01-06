@@ -17,7 +17,7 @@ const Contact = () => {
     },
     {
       id: 1,
-      link: "https:/linkedin.com",
+      link: "www.linkedin.com/in/mrinalani-pandey-7684a4268",
       icon: <FaLinkedin />,
     },
   ];

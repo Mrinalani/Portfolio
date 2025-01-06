@@ -16,42 +16,42 @@ const Portfolio = () => {
       id: "1",
       image: p1,
       title: "Best App",
-      github: "https://github.com/node.js/node",
+      github: "https://github.com/Mrinalani",
       demo: "https://node.js.org/en/",
     },
     {
       id: 2,
       image: p2,
       title: "Best App",
-      github: "https://github.com/node.js/node",
+      github: "https://github.com/Mrinalani",
       demo: "https://node.js.org/en/",
     },
     {
       id: 3,
       image: p3,
       title: "Best App",
-      github: "https://github.com/node.js/node",
+      github: "https://github.com/Mrinalani",
       demo: "https://node.js.org/en/",
     },
     {
       id: 4,
       image: p4,
       title: "Best App",
-      github: "https://github.com/node.js/node",
+      github: "https://github.com/Mrinalani",
       demo: "https://node.js.org/en/",
     },
     {
       id: 5,
       image: p5,
       title: "Best App",
-      github: "https://github.com/node.js/node",
+      github: "https://github.com/Mrinalani",
       demo: "https://node.js.org/en/",
     },
     {
         id: 6,
         image: p6,
         title: "Best App",
-        github: "https://github.com/node.js/node",
+        github: "https://github.com/Mrinalani",
         demo: "https://node.js.org/en/",
       },
   ];
@@ -68,7 +68,7 @@ const Portfolio = () => {
                         <div className="w-1/3 flex flex-col items-center justify-evenly p-1">
                             <h2>{title}</h2>
                             <a className="text-2xl cursor-pointer duration-150 hover:scale-110" href={github} target="_blank" rel="noopener noreferrer"><FaGithub/></a>
-                            <a className="text-2xl cursor-pointer duration-150 hover:scale-110" href={demo}><FaExternalLinkSquareAlt/></a>
+                            <a className="text-2xl cursor-pointer duration-150 hover:scale-110" href={demo} target="_blank" rel="noopener noreferrer"><FaExternalLinkSquareAlt/></a>
                         </div>
                     </div>
                 ))
