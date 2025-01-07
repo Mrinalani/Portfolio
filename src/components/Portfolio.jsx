@@ -47,13 +47,7 @@ const Portfolio = () => {
       github: "https://github.com/Mrinalani/Todo-List",
       demo: "https://node.js.org/en/",
     },
-    {
-        id: 6,
-        image: p6,
-        title: "Typescript basics",
-        github: "https://github.com/Mrinalani",
-        demo: "https://node.js.org/en/",
-      },
+   
   ];
   return (
     <Section
