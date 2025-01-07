@@ -6,17 +6,17 @@ const Hero = () => {
     const SOCIAL = [
         {
             id: 1,
-            link: "https://twitter.com",
+            link: "https://x.com/mrinalani_",
             icon: <FaTwitter />,
         },
         {
             id: 2,
-            link: "https://github.com",
+            link: "https://github.com/Mrinalani",
             icon: <FaGithub />,
         },
         {
             id: 3,
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/mrinalani-pandey-7684a4268",
             icon: <FaLinkedin />,
         }
     ]
@@ -31,12 +31,7 @@ const Hero = () => {
       <h2 className='text-3xl text-rose-600 uppercase font-bold'>Mrinalani Pandey</h2>
       <h3 className='text-2xl py-3'>Web Developer</h3>
       <p className='max-w-xl font-light text-gray-500'>
-      Hello<span className="animate-pulse text-2xl">👋</span>
-      welcome to my
-            site. I am freelance web developer. I love to work on Web
-            dev,
-            Mobile dev & automation project.
-      </p>
+      Hello<span className='animate-pulse text-2xl'>👋</span>, welcome to my website! I'm an experienced full-stack web developer specializing in building user-friendly websites and web applications. Let's bring your ideas to life!</p>
       {/* social icons */}
       <div className='flex justify-evenly py-8 lg:py-16 text-3xl w-full md:w-1/3'>
         {SOCIAL.map(({id,link,icon}) => (

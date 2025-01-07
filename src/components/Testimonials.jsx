@@ -1,51 +1,39 @@
 import React from "react";
 import Section from "./Section";
-import avatar from "../assets/avatar.png";
 
-const Testimonials = () => {
-  const TESTIMONIALS = [
-    {
-      id: 1,
-      image: avatar,
-      name: "John Doe",
-      comment:
-        "Something ebony from this pallas raven such night, marvelled i fown rare this i, said tinkled soul door sir nooded.",
-    },
-    {
-      id: 2,
-      image: avatar,
-      name: "Robert Smith",
-      comment:
-        "Something ebony from this pallas raven such night, marvelled i fown rare this i, said tinkled soul door sir nooded.",
-    },
-    {
-      id: 3,
-      image: avatar,
-      name: "Rahul Jain",
-      comment:
-        "Something ebony from this pallas raven such night, marvelled i fown rare this i, said tinkled soul door sir nooded.",
-    },
+const Skills = () => {
+  const SKILLS = [
+    "JavaScript",
+    "React.js",
+    "Node.js",
+    "TypeScript",
+    "HTML & CSS",
+    "Express.js",
+    "Redux",
+    "Socket.io",
+    "MySQL",
+    "MongoDB",
+    "Postman",
+    "AWS",
   ];
+
   return (
     <Section
-      title="Testimonials 🗨️"
-      subtitle="This is what my other clients have to say about me. I accept clients from all around the world."
+      title="My Skills 🚀"
+      subtitle="Here are the technologies and tools I work with to build high-quality, scalable applications."
     >
-        <div className="max-w-xl flex flex-col gap-8">
-            {TESTIMONIALS.map(({id, image, name, comment})=>(
-              <div className="flex p-4 justify-center items-center rounded-xl shadow-md dark:shadow-gray-300">
-                <div className="w-1/3">
-                    <img src={image} alt={name} className="w-20 h-20 object-cover object-top pt-2" />
-                </div>
-                <div className="w-2/3 flex flex-col justify-center items-center gap-3 p-2">
-                    <h3 className=" text-xl font-semibold">{name}</h3>
-                    <p className="text-sm font-extralight">{comment}</p>
-                </div>
-              </div>
-            ))}
-        </div>
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 max-w-xl mx-auto">
+        {SKILLS.map((skill, index) => (
+          <div
+            key={index}
+            className="flex items-center justify-center p-4 bg-gray-100 rounded-lg shadow-md dark:bg-gray-800 ease-in-out duration-200 hover:scale-110"
+          >
+            <p className="text-center text-lg font-semibold dark:text-white">{skill}</p>
+          </div>
+        ))}
+      </div>
     </Section>
   );
 };
 
-export default Testimonials;
+export default Skills;

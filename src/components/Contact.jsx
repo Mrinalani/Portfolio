@@ -1,19 +1,19 @@
 import React from "react";
 import Section from "./Section";
-import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import contact from "../assets/mobile.png";
 
 const Contact = () => {
   const SOCIAL = [
     {
       id: 1,
-      link: "https:/twitter.com",
+      link: "https://x.com/mrinalani_",
       icon: <FaTwitter />,
     },
     {
       id: 2,
-      link: "https:/facebook.com",
-      icon: <FaFacebook />,
+      link: "https://github.com/Mrinalani",
+      icon: <FaGithub />,
     },
     {
       id: 1,
@@ -24,7 +24,7 @@ const Contact = () => {
   return (
     <Section
       title="Contact 📞"
-      subtitle="These are the ways you can get in topuch with me. Hope to here from you soon :)"
+      subtitle="These are the ways you can get in touch with me. Hope to here from you soon :)"
     >
       <div className=" flex flex-col items-center justify-center gap-8 text-center">
         <div>
@@ -32,8 +32,8 @@ const Contact = () => {
         </div>
         <div>
           <p className="max-w-xl md:max-w-lg font-extralight">
-            I am open to talk regarding freelancing or full-time
-            opportunities.Feel free to contact me using your perfect medium
+            I am open to talk regarding freelancing, internship or full-time
+            opportunities. Feel free to contact me using your perfect medium
           </p>
         </div>
         <div className="flex w-full items-center justify-evenly text-3xl">

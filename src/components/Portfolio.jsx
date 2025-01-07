@@ -15,42 +15,42 @@ const Portfolio = () => {
     {
       id: "1",
       image: p1,
-      title: "Best App",
-      github: "https://github.com/Mrinalani",
+      title: "Group Chat",
+      github: "https://github.com/Mrinalani/Group-Chat-App",
       demo: "https://node.js.org/en/",
     },
     {
       id: 2,
       image: p2,
-      title: "Best App",
-      github: "https://github.com/Mrinalani",
-      demo: "https://node.js.org/en/",
-    },
-    {
-      id: 3,
-      image: p3,
-      title: "Best App",
-      github: "https://github.com/Mrinalani",
+      title: "Expense Tracker",
+      github: "https://github.com/Mrinalani/Expense-Tracker-System",
       demo: "https://node.js.org/en/",
     },
     {
       id: 4,
       image: p4,
-      title: "Best App",
-      github: "https://github.com/Mrinalani",
+      title: "Ecommerce",
+      github: "https://github.com/Mrinalani/Ecommerce-Product-MongoDb",
       demo: "https://node.js.org/en/",
     },
     {
       id: 5,
       image: p5,
-      title: "Best App",
-      github: "https://github.com/Mrinalani",
+      title: "Linked in clone",
+      github: "https://github.com/Mrinalani/linkedin-clone",
+      demo: "https://node.js.org/en/",
+    },
+    {
+      id: 3,
+      image: p3,
+      title: "Todo List",
+      github: "https://github.com/Mrinalani/Todo-List",
       demo: "https://node.js.org/en/",
     },
     {
         id: 6,
         image: p6,
-        title: "Best App",
+        title: "Typescript basics",
         github: "https://github.com/Mrinalani",
         demo: "https://node.js.org/en/",
       },
@@ -58,7 +58,7 @@ const Portfolio = () => {
   return (
     <Section
       title="Portfolio 👨‍💻 "
-      subtitle="These are all projects that I hace worked on. Some of them I have worked before i have gained some experience. So go gentel on them"
+      subtitle="Here are the projects I’ve worked on, including some from my early days as a developer. I hope you enjoy exploring them!"
     >
         <div className="grid gap-8 lg:gap-14 lg:grid-cols-2">
             {

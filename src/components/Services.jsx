@@ -23,7 +23,7 @@ const Services = () => {
             {
                 id: 3,
                 image: mobile,
-                title: "Mobile Developement",
+                title: "Real-Time Applications",
             },
             {
                 id: 4,
@@ -34,7 +34,7 @@ const Services = () => {
   return (
     <Section
     title="Services ⚔️"
-    subtitle="Here are all services that I provide to my cliebts. I hope I offer the services that you are looking for. If you dont find something that you are looking for then please send me an email"
+    subtitle="Here are the professional services I offer to bring your ideas to life. I hope to provide the solutions you're looking for. If you don't see a service that fits your needs, feel free to send me an email!"
     >
 
 <div className='grid gap-10 lg:grid-cols-2'>
